@@ -1,18 +1,16 @@
-div {
-    display: inline-block;
-}
 .satu {
     width: 200px;
     height: 200px;
     background-color: lightgreen;
-    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .dua {
     width: 100px;
     height: 100px;
     background-color: lightblue;
-    margin-left: 20px;
+    margin-top: -50px;
+    margin-left: -50px;
 }
 
 .tiga {
