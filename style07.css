@@ -103,3 +103,24 @@ body{
     font-size: 11px;
     margin-top:-5;
 }
+
+.content .penulis a{
+    color:salmon;
+    text-decoration:none;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size:14px;
+}
+
+.footer{
+    background-color:#333;
+    padding: 10px;
+}
+
+.footer .copy{
+    color: #eee;
+    text-align:center;
+    font-size:12px;
+}
