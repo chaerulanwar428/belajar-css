@@ -89,3 +89,17 @@ body{
     border-bottom: 5px solid lightskyblue;
     border-bottom: 5px solid salmon;
 }
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top:-5;
+}
