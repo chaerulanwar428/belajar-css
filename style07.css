@@ -41,3 +41,26 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*style*/
+
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333333;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding:20px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
