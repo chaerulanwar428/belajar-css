@@ -76,7 +76,16 @@ body{
     color: salmon;
 }
 
-.header a {
+.header a:hover {
     background-color:lightskyblue;
     color:white;
+}
+
+.hero{
+    height: 280px;
+    background-image:url(img/hero.png);
+    background-size: cover;
+    background-position:0 -180px;
+    border-bottom: 5px solid lightskyblue;
+    border-bottom: 5px solid salmon;
 }
