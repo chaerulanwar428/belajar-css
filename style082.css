@@ -10,4 +10,9 @@
     height: 80px;
     background-color:salmon;
     color:white;
+    text-align:center;
+    line-height:80px;
+    font-size:30px;
+    margin:2px;
+    float:left;
 }
