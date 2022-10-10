@@ -10,11 +10,20 @@
             font-size: 20px;
             text-align: center;
         }
+        /*
+        scale(angka), scaleX(angka), scaleY(angka),
+        rotate(deg), rotateX(deg), rotateY(angka),
+        skew(deg), skewX(deg), skewY(deg),
+        translate(px), translateX(px), trasnlateY(px) */
         .kotak{
             width: 200px;
             height: 200px;
             background-color: lightblue;
             margin: 50px auto 0;
+            transition: 1s;
+        }
+        .kotak:hover{
+            transform:scale(1.5);
         }
     </style>
 </head>
