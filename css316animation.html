@@ -9,19 +9,25 @@
         .kotak{
             width: 200px;
             height: 200px;
-            background-color: salmon
+            background-color: salmon;
+            animation: animasikotak 2s ease infinite;
         }
 
         .kotak:hover{
-            animation: animasikotak 2s ease;
+            
         }
 
         @keyframes animasikotak {
-            from{
+            0%{
                 width: 200px;
             }
-            to{
+            50%{
                 width: 500px;
+                height: 200px;
+            }
+            100%{
+                width: 500px;
+                height: 500px;
             }
         }
     </style>
