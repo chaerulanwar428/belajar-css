@@ -10,6 +10,11 @@
             margin: 0;
             padding: 0;
         }
+        .container {
+            width: 900px;
+            margin: 10px auto;
+            border: 5px solid black;
+        }
 
         .kotak{
             width: 100px;
@@ -18,12 +23,14 @@
             transition: 1s;
         }
 
-        .kotak:hover{
+        .container:hover .kotak{
             transform: rotate(180deg);
         }
     </style>
 </head>
 <body>
+    <div class="container">
     <div class="kotak"></div>
+</div>
 </body>
 </html>
